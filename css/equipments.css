@@ -1,0 +1,438 @@
+body {
+	background-color: #1F2833;
+	text-align: center;
+}
+
+.menu {
+	height: 8vh;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 15px;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+.logo {
+	float: left;
+	height: 190px;
+	width: 170px;
+	text-align: center;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+li {
+	border: 2px orange solid;
+	color: Blue;
+	padding: 20px;
+	font-size: 20px;
+}
+
+li:hover {
+	background-color: #66FCF1;
+	color: gray;
+}
+
+li {
+	list-style: none;
+	padding: 10px;
+	background: #1F2833;
+	border: 5px black solid;
+	color: white;
+	text-align: center;
+	font-family: impact;
+	border: 6px;
+}
+
+.balls {
+	height: 90vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 5px;
+}
+
+.ball1 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic1 {
+	height: 60vh;
+	background-image: url(../images/ball1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text1 {
+	color: #1F2833;
+}
+
+.ball2 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic2 {
+	height: 60vh;
+	background-image: url(../images/ball2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text2 {
+	color: #1F2833;
+}
+
+.ball3 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic3 {
+	height: 60vh;
+	background-image: url(../images/ball3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text3 {
+	color: #1F2833;
+}
+
+.shoes {
+	height: 60vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 25px;
+}
+
+.shoes1 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic11 {
+	height: 35vh;
+	background-image: url(../images/shoes1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text11 {
+	color: #1F2833;
+}
+
+.shoes2 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic22 {
+	height: 35vh;
+	background-image: url(../images/shoes2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text22 {
+	color: #1F2833;
+}
+
+.shoes3 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic33 {
+	height: 35vh;
+	background-image: url(../images/shoes3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text33 {
+	color: #1F2833;
+}
+
+.shorts {
+	height: 80vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 25px;
+}
+
+.shorts1 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic111 {
+	height: 50vh;
+	background-image: url(../images/shorts1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text111 {
+	color: #1F2833;
+}
+
+.shirt2 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic222 {
+	height: 50vh;
+	background-image: url(../images/shirt1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text222 {
+	color: #1F2833;
+}
+
+.shorts3 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic333 {
+	height: 50vh;
+	background-image: url(../images/shorts2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text333 {
+	color: #1F2833;
+}
+
+.ring {
+	height: 85vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 25px;
+}
+
+.ring1 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic1111 {
+	height: 60vh;
+	background-image: url(../images/ring1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text1111 {
+	color: #1F2833;
+}
+
+.ring2 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic2222 {
+	height: 60vh;
+	background-image: url(../images/ring2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text2222 {
+	color: #1F2833;
+}
+
+.ring3 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic3333 {
+	height: 60vh;
+	background-image: url(../images/ring3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text3333 {
+	color: #1F2833;
+}
+
+.bags {
+	height: 70vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 25px;
+}
+
+.bag1 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic11111 {
+	height: 50vh;
+	background-image: url(../images/bag1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text11111 {
+	color: #1F2833;
+}
+
+.bag2 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic22222 {
+	height: 50vh;
+	background-image: url(../images/bag2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text22222 {
+	color: #1F2833;
+}
+
+.bag3 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic33333 {
+	height: 50vh;
+	background-image: url(../images/bag3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text33333 {
+	color: #1F2833;
+}
+
+.bans {
+	height: 50vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 25px;
+}
+
+.ban1 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic111111 {
+	height: 30vh;
+	background-image: url(../images/ban1.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text111111 {
+	color: #1F2833;
+}
+
+.ban2 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic222222 {
+	height: 30vh;
+	background-image: url(../images/ban2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text222222 {
+	color: #1F2833;
+}
+
+.ban3 {
+	display: grid;
+	background-color: #C5C6C7;
+	padding: 10px
+}
+
+.pic333333 {
+	height: 30vh;
+	background-image: url(../images/ban3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text333333 {
+	color: #1F2833;
+}
+
+a {
+	text-decoration: none;
+}
+
+.footer {
+	padding: 5px;
+	height: 3vh;
+	margin-top: 5px;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+}

@@ -1,0 +1,110 @@
+body {
+	background-color: #1F2833;
+	text-align: center;
+}
+
+.menu {
+	height: 6vh;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 15px;
+	padding: 0;
+	
+}
+
+.logo {
+	float: left;
+	height: 190px;
+	width: 170px;
+	text-align: center;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+li {
+	border: 2px orange solid;
+	color: Blue;
+	padding: 20px;
+	font-size: 20px;
+}
+
+li:hover {
+	background-color: #66FCF1;
+	color: gray;
+}
+
+li {
+	list-style: none;
+	padding: 10px;
+	background: #1F2833;
+	border: 5px black solid;
+	color: white;
+	text-align: center;
+	font-family: impact;
+	border: 6px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.showcase {
+	height: 90vh;
+	background-image: url(../images/showball.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.bot {
+	height: 90vh;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-gap: 5px;
+}
+
+.left {
+	color: #C5C6C7;
+	font-size: 25px;
+	background-color: #0B0C10;
+	padding: 3px;
+}
+
+.right {
+	height: 90vh;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.pic {
+	height: 60vh;
+	background-image: url(../images/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+.pic:hover {
+	height: 60vh;
+	background-image: url(../images/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	transition: all .5s ease-out;
+}
+
+.text {
+	color: white;
+	font-size: 20px;
+}
+
+.footer {
+	padding: 5px;
+	height: 3vh;
+	margin-top: 10px;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+}
